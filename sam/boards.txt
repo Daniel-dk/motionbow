@@ -1,0 +1,22 @@
+motionbow.name=Motionbow
+motionbow.vid.0=0x2341
+motionbow.pid.0=0x003e
+motionbow.upload.tool=bossac
+motionbow.upload.protocol=sam-ba
+motionbow.upload.maximum_size=262144
+motionbow.upload.use_1200bps_touch=true
+motionbow.upload.wait_for_upload_port=true
+motionbow.upload.native_usb=true
+motionbow.build.mcu=cortex-m4
+motionbow.build.f_cpu=120000000ul
+motionbow.build.usb_manufacturer="LaserX"
+motionbow.build.usb_product="laserX bow"
+motionbow.build.board=MOTIONBOW
+motionbow.build.core=arduino
+motionbow.build.extra_flags=-D__SAM4S4A__ -mthumb {build.usb_flags}
+motionbow.build.ldscript=linker_scripts/gcc/flash.ld
+motionbow.build.variant=motionbow
+motionbow.build.variant_system_lib=libsam_sam4s4a_gcc_rel.a
+motionbow.build.vid=0x2341
+motionbow.build.pid=0x003e
+
